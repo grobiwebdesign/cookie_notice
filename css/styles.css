@@ -128,12 +128,13 @@ nav li a:hover {
   display: none;
   width: 100%;
   position: fixed;
+  z-index: 1;
   top: 0;
   left: 0;
   background: mediumvioletred;
 }
 
-/* line 10, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
+/* line 11, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
 .accept {
   padding: 12px 18px;
   border: none;
@@ -143,7 +144,7 @@ nav li a:hover {
   display: inline-block;
 }
 
-/* line 19, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
+/* line 20, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
 .accept:hover {
   cursor: pointer;
 }
