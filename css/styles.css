@@ -125,12 +125,12 @@ nav li a:hover {
 
 /* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
 .cookie_notice {
-  display: none;
+  display: block;
   width: 100%;
   position: fixed;
-  z-index: 1;
   top: 0;
   left: 0;
+  z-index: 999;
   background: mediumvioletred;
 }
 
@@ -142,11 +142,16 @@ nav li a:hover {
   background: white;
   color: mediumvioletred;
   display: inline-block;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
 }
 
-/* line 20, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
+/* line 24, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
 .accept:hover {
   cursor: pointer;
+  background: #c7bfbf;
 }
 
 /*# sourceMappingURL=../css/styles.map */

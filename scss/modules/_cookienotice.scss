@@ -1,10 +1,10 @@
 .cookie_notice{
-    display: none;
+    display: block;
     width: 100%;
     position: fixed;
-    z-index: 1;
     top: 0;
     left: 0;
+    z-index: 999;
     background: mediumvioletred;
 }
 
@@ -15,8 +15,14 @@
     background: white;
     color: mediumvioletred;
     display: inline-block;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
 }
 
 .accept:hover{
     cursor: pointer;
+    background: rgb(199, 191, 191);
 }
+
