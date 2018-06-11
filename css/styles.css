@@ -135,7 +135,7 @@ nav li a:hover {
 }
 
 /* line 11, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
-.accept {
+#accept {
   padding: 12px 18px;
   border: none;
   border-radius: 5px;
@@ -149,7 +149,7 @@ nav li a:hover {
 }
 
 /* line 24, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
-.accept:hover {
+#accept:hover {
   cursor: pointer;
   background: #c7bfbf;
 }

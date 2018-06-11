@@ -9,7 +9,7 @@
     <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
     <div class="cookie_notice">
         <div class="row">
-            We use cookies to provide you a top quality UX. By visiting our site, you consent to cookies. <a href="#">Read More</a> <a href="?accept_cookies" class="accept">I accept</a>
+            We use cookies to provide you a top quality UX. By visiting our site, you consent to cookies. <a href="#">Read More</a> <a href="#" id="accept">I accept</a>
         </div>
     </div>
 </head> 
@@ -50,6 +50,11 @@
 <!--fa icons-->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script src="https://use.fontawesome.com/937739436a.js"></script>
-<script src="main.js"></script>   
+<script>
+    document.getElementById('accept') 
+    .addEventListener('click', function() {
+    document.querySelector('.cookie_notice').style.display = "none";
+    });
+</script>   
 </body>
 </html>
