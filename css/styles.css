@@ -1,0 +1,151 @@
+/* line 2, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/base/_reset.scss */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'PT Sans', sans-serif;
+}
+
+/* line 8, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/base/_reset.scss */
+.row {
+  padding: 24px 36px;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 13, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/base/_reset.scss */
+  .row {
+    padding: 24px 12px;
+  }
+}
+
+/* line 18, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/base/_reset.scss */
+body {
+  background-color: whitesmoke;
+}
+
+/* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_header.scss */
+header {
+  max-width: 100%;
+  background: #3e474f;
+}
+
+/* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_logo.scss */
+.logo {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_navbar.scss */
+nav {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+/* line 7, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_navbar.scss */
+nav ul li {
+  display: inline-block;
+  list-style-type: none;
+}
+
+/* line 12, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_navbar.scss */
+nav li a {
+  color: white;
+  display: block;
+  text-decoration: none;
+  padding: 12px 24px;
+  font-size: 18px;
+  -webkit-transition: color 0.2s ease-out;
+  -moz-transition: color 0.2s ease-out;
+  -o-transition: color 0.2s ease-out;
+  transition: color 0.2s ease-out;
+}
+
+/* line 24, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_navbar.scss */
+nav li a:hover {
+  color: mediumvioletred;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 29, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_navbar.scss */
+  nav {
+    display: block;
+  }
+  /* line 33, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/layout/_navbar.scss */
+  nav ul li {
+    display: block;
+  }
+}
+
+/* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_searchbar.scss */
+.search {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+/* line 7, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_searchbar.scss */
+.search input {
+  padding: 10px;
+  border: none;
+  font-size: 18px;
+  border-radius: 50px 0 0 50px;
+  color: grey;
+}
+
+/* line 15, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_searchbar.scss */
+.searchbutton {
+  font-size: 18px;
+  padding: 10px 15px;
+  background: mediumvioletred;
+  list-style-type: none;
+  border-radius: 0 50px 50px 0;
+  color: white;
+  -webkit-transition: background-color 0.2s ease-out;
+  -moz-transition: background-color 0.2s ease-out;
+  -o-transition: background-color 0.2s ease-out;
+  transition: background-color 0.2s ease-out;
+}
+
+/* line 28, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_searchbar.scss */
+.searchbutton:hover {
+  background: darkmagenta;
+  cursor: pointer;
+  text-shadow: 2px 1.5px 3px grey;
+}
+
+@media screen and (max-width: 480px) {
+  /* line 35, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_searchbar.scss */
+  .search input {
+    max-width: 190px;
+  }
+}
+
+/* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
+.cookie_notice {
+  display: block;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: mediumvioletred;
+}
+
+/* line 10, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
+.accept {
+  padding: 12px 18px;
+  border: none;
+  border-radius: 5px;
+  background: white;
+  color: mediumvioletred;
+  display: inline-block;
+}
+
+/* line 19, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
+.accept:hover {
+  cursor: pointer;
+}
+
+/*# sourceMappingURL=../css/styles.map */
