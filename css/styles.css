@@ -125,7 +125,7 @@ nav li a:hover {
 
 /* line 1, C:/Users/graeme robinson/Documents/GitHub/cookie_notice_popup/scss/modules/_cookienotice.scss */
 .cookie_notice {
-  display: block;
+  display: none;
   width: 100%;
   position: fixed;
   top: 0;
