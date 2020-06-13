@@ -1,59 +1,56 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+	<meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Cookie Notice Popup Banner</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet"> 
-    <link rel="stylesheet" type="text/css" media="screen" href="css/styles.css" />
-</head> 
-    <div class="cookie_notice">
-        <div class="row">
-            We use cookies to provide you a top quality UX. By visiting our site, you consent to cookies. <a href="#">Read More</a> <a href="#" id="accept">I accept</a>
-        </div>
-    </div>
+	<link rel="stylesheet" type="text/css" href="css/bulma/css/bulma.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
 <body>
-    <header>
-        <div class="row">
-            <a href="index.html"><img class="logo" src="imgs/logo-purple.png" alt=logo></a>
-            <nav>
-                <ul>
-                    <li><a href="#">Link 1</a></li>
-                    <li><a href="#">Link 2</a></li>
-                    <li><a href="#">Link 3</a></li>
-                    <li><a href="#">Link 4</a></li>
-                    <li><a href="#">Link 5</a></li>
-                </ul>
-            </nav>
-            <div class="search">
-                <input type="text" placeholder="Wey aye Pet"><span class="searchbutton"><li class="fa fa-search"></li></span>
-            </div>
-        </div>
-    </header>
-    <!--main body of text, demonstration only-->
-    <main>
-        <div class="row">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi sunt nam consequatur alias excepturi, ab expedita at nihil, quod eveniet? Nesciunt temporibus minima fugiat possimus esse! Distinctio, quis natus.</p>
-            <p>Sapiente quis nobis quae earum sint possimus repellendus nam aliquid eos accusamus, labore nisi, sit omnis reprehenderit? Aliquam placeat molestiae non, magnam quisquam doloribus quam ipsum excepturi iusto, incidunt veniam.</p>
-            <p>Nesciunt illum unde tempore vel itaque aspernatur dolorum harum labore. Veniam, eligendi hic ex vitae iusto magnam autem. Neque voluptate quidem explicabo obcaecati tempora aliquam modi consequatur beatae est! Alias.</p>
-            <p>Magni molestias quasi, quidem minus hic fuga numquam accusantium, pariatur ipsa nostrum eveniet, quo inventore doloremque blanditiis. Voluptate, dolorem aliquid ut perferendis consectetur magni in officia deleniti asperiores aut quibusdam!</p>
-            <p>Nemo sapiente deleniti earum nesciunt quis quo assumenda, quibusdam in natus nulla. Esse deserunt ea consequuntur quas, eos eius magni? Nisi dolores nihil architecto aliquid fugiat quis modi harum necessitatibus.</p>
-            <p>Minus tempore nesciunt dolores placeat culpa corporis recusandae eum. Sequi aspernatur optio in esse ducimus hic quis veniam accusantium, eum nobis sapiente et exercitationem eaque, unde tenetur, cum repudiandae iusto?</p>
-            <p>Consequuntur esse sit mollitia ducimus! Provident eaque cum rerum ut assumenda nam repudiandae aperiam earum odit incidunt tempora a, delectus error ex sunt facilis hic natus nesciunt corrupti et. Consequatur.</p>
-            <p>Dolores incidunt deserunt quis, odio voluptates repudiandae nostrum dignissimos at rerum in blanditiis eum sed quo rem temporibus. Sed quam quia dignissimos distinctio earum esse dolores voluptatem magnam eaque recusandae.</p>
-            <p>Alias, vero aspernatur. Fugiat dignissimos dolore rerum voluptates suscipit quasi omnis unde culpa sint ducimus inventore aliquam voluptatibus labore velit voluptatem praesentium officiis, sequi officia illum cumque voluptatum vel! Dolores.</p>
-            <p>Cum laudantium, quam harum aut illum voluptatibus distinctio voluptate quibusdam provident et, similique eos, praesentium nulla veritatis. Corporis quo, eum excepturi quisquam sed ipsum et. Blanditiis consequatur provident illo voluptatem?</p>
-        </div>
-    </main>
-<!--fa icons-->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-<script src="https://use.fontawesome.com/937739436a.js"></script>
-<script>
-    document.getElementById('accept') 
-    .addEventListener('click', function() {
-    document.querySelector('.cookie_notice').style.display = "none";
-    });
-</script>   
+	
+	<section class="section cookie_banner">
+		<div class="container">
+			<div class="row has-text-centered ">
+				<h3 class="title is-3 has-text-white" >We use cookies</h3> 
+				<p class="subtitle is-5 has-text-white">By using our site, you agree to our use of cookies to deliver a better experience.</p>
+				<a class="button is-link is-rounded" href="#">Read More</a> 
+				<a class="button is-rounded is-inverted is-outline has-text-weight-bold accept_btn">I accept</a>	
+			</div>
+		</div>
+	</section>
+		
+
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Deleniti quasi sunt nam consequatur alias excepturi, ab expedita at nihil, quod eveniet? Nesciunt temporibus minima fugiat possimus esse! Distinctio, quis natus.</p>
+            	<p>Sapiente quis nobis quae earum sint possimus repellendus nam aliquid eos accusamus, labore nisi, sit omnis reprehenderit? Aliquam placeat molestiae non, magnam quisquam doloribus quam ipsum excepturi iusto, incidunt veniam.</p>
+           		<p>Nesciunt illum unde tempore vel itaque aspernatur dolorum harum labore. Veniam, eligendi hic ex vitae iusto magnam autem. Neque voluptate quidem explicabo obcaecati tempora aliquam modi consequatur beatae est! Alias.</p>
+            	<p>Magni molestias quasi, quidem minus hic fuga numquam accusantium, pariatur ipsa nostrum eveniet, quo inventore doloremque blanditiis. Voluptate, dolorem aliquid ut perferendis consectetur magni in officia deleniti asperiores aut quibusdam!</p>
+			</div>
+		</div>	
+	</section>
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<p>Nemo sapiente deleniti earum nesciunt quis quo assumenda, quibusdam in natus nulla. Esse deserunt ea consequuntur quas, eos eius magni? Nisi dolores nihil architecto aliquid fugiat quis modi harum necessitatibus.</p>
+            	<p>Minus tempore nesciunt dolores placeat culpa corporis recusandae eum. Sequi aspernatur optio in esse ducimus hic quis veniam accusantium, eum nobis sapiente et exercitationem eaque, unde tenetur, cum repudiandae iusto?</p>
+			</div>
+		</div>	
+	</section>
+	<section class="section">
+		<div class="container">
+			<div class="row">
+				<p>Consequuntur esse sit mollitia ducimus! Provident eaque cum rerum ut assumenda nam repudiandae aperiam earum odit incidunt tempora a, delectus error ex sunt facilis hic natus nesciunt corrupti et. Consequatur.</p>
+            	<p>Dolores incidunt deserunt quis, odio voluptates repudiandae nostrum dignissimos at rerum in blanditiis eum sed quo rem temporibus. Sed quam quia dignissimos distinctio earum esse dolores voluptatem magnam eaque recusandae.</p>
+            	<p>Alias, vero aspernatur. Fugiat dignissimos dolore rerum voluptates suscipit quasi omnis unde culpa sint ducimus inventore aliquam voluptatibus labore velit voluptatem praesentium officiis, sequi officia illum cumque voluptatum vel! Dolores.</p>
+            	<p>Cum laudantium, quam harum aut illum voluptatibus distinctio voluptate quibusdam provident et, similique eos, praesentium nulla veritatis. Corporis quo, eum excepturi quisquam sed ipsum et. Blanditiis consequatur provident illo voluptatem?</p>
+			</div>
+		</div>	
+	</section> 
+<script src="js/scripts.js"></script>    
 </body>
 </html>
