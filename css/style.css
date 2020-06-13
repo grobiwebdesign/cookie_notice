@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "PT Sans", sans-serif;
+}
+
+body {
+  background-color: #F5F5F5;
+}
+
+.cookie_banner {
+  background: #C71585;
+  color: #F5F5F5;
+  position: fixed;
+  z-index: 1000;
+  transition: 1500ms;
+  top: -100%;
+  left: 0;
+  right: 0;
+}
+
+.cookie_banner.active {
+  top: 0;
+}
+
+/*.cookie_notice{
+    display: block;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background: mediumvioletred;
+}
+
+#accept{
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    background: white;
+    color: mediumvioletred;
+    display: inline-block;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s ease-out;
+    -moz-transition: background-color 0.2s ease-out;
+    -o-transition: background-color 0.2s ease-out;
+    transition: background-color 0.2s ease-out;
+}
+
+#accept:hover{
+    cursor: pointer;
+    background: rgb(199, 191, 191);
+}*/
+
+/*# sourceMappingURL=style.css.map */

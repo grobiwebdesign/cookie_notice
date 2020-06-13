@@ -1,0 +1,36 @@
+nav{
+    display: inline-block;
+    font-size: 0;
+    vertical-align: middle;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style-type: none;
+}
+
+nav li a{
+    color: white;
+    display: block;
+    text-decoration: none;
+    padding: 12px 24px;
+    font-size: 18px;
+    -webkit-transition: color 0.2s ease-out;
+    -moz-transition: color 0.2s ease-out;
+    -o-transition: color 0.2s ease-out;
+    transition: color 0.2s ease-out;
+}
+
+nav li a:hover{
+    color: mediumvioletred;
+}
+
+@media screen and (max-width:480px){
+    nav{
+        display: block;
+    }
+    
+    nav ul li{
+        display: block;
+    }
+}
