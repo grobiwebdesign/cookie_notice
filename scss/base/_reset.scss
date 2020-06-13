@@ -1,0 +1,20 @@
+//removes large gap on default
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+}
+
+.row{
+    padding: 24px 36px;
+}
+
+@media screen and (max-width:480px){
+    .row{
+        padding: 24px 12px;
+    }
+}
+
+body{
+    background-color: whitesmoke;
+}
